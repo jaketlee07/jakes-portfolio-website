@@ -12,9 +12,9 @@ function App() {
       <Nav></Nav>
       <div className = "px-20">
       <About></About>
+      <Experience></Experience>
       <Skills></Skills>
       <Projects></Projects>
-      <Experience></Experience>
       </div>
     </div>
   );

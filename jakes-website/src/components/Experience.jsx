@@ -5,6 +5,9 @@ import {
 } from "react-vertical-timeline-component";
 //import { motion } from "framer-motion";
 
+import BostonHacks from "/Users/jakelee/Documents/GitHub/jakes-portfolio-website/jakes-website/src/assets/BostonHacks.png";
+import ThetaTau from "/Users/jakelee/Documents/GitHub/jakes-portfolio-website/jakes-website/src/assets/ThetaTau.png";
+
 import "react-vertical-timeline-component/style.min.css";
 
 // import { styles } from "../styles";
@@ -13,19 +16,19 @@ import "react-vertical-timeline-component/style.min.css";
 // import { textVariant } from "../utils/motion";
 const experiences = [
     {
-      date: "2020-2021",
+      date: "February 2023 - Present",
       iconBg: "#232631",
-      icon: "/path/to/image1.jpg",
-      title: "Experience 1",
-      company_name: "Company 1",
+      icon: BostonHacks,
+      title: "Tech Team",
+      company_name: "Boston Hacks",
       points: ["Point 1", "Point 2", "Point 3"],
     },
     {
-      date: "2019-2020",
+      date: "January 2023 - May 2023",
       iconBg: "#232631",
-      icon: "/path/to/image2.jpg",
-      title: "Experience 2",
-      company_name: "Company 2",
+      icon: ThetaTau,
+      title: "Website Chair",
+      company_name: "Theta Tau Psi Delta",
       points: ["Point 1", "Point 2", "Point 3"],
     },
     // Add more experience objects as needed
@@ -43,7 +46,7 @@ const ExperienceCard = ({ experience }) => {
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div className="flex justify-center items-center w-full h-full">
+        <div className="flex object-fill justify-center items-center w-full h-full">
           <img
             src={experience.icon}
             alt={experience.company_name}
@@ -78,7 +81,6 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
@@ -86,8 +88,8 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default Experience;
+//export default SectionWrapper(Experience, "work");
