@@ -5,8 +5,8 @@ import {
 } from "react-vertical-timeline-component";
 //import { motion } from "framer-motion";
 
-import BostonHacks from "/Users/jakelee/Documents/GitHub/jakes-portfolio-website/jakes-website/src/assets/BostonHacks.png";
-import ThetaTau from "/Users/jakelee/Documents/GitHub/jakes-portfolio-website/jakes-website/src/assets/ThetaTau.png";
+import { BostonHacks, ThetaTau } from "../assets";
+
 
 import "react-vertical-timeline-component/style.min.css";
 

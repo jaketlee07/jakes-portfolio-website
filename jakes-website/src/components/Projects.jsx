@@ -1,5 +1,7 @@
-import React from 'react'
-import MealMe from '/Users/jakelee/Documents/GitHub/jakes-portfolio-website/jakes-website/src/assets/MealMe.png'
+import React from 'react';
+import { MealMe} from "../assets";
+
+
 //import Tilt from "react-tilt";
 //import { motion } from "framer-motion";
 //import { projects } from "/Users/jakelee/Documents/GitHub/jakes-website/src/constants";

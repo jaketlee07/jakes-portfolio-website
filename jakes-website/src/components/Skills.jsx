@@ -1,8 +1,7 @@
 import React from 'react'
 //import {View, Image, StyleSheet} from 'react-native';
 
-import code from "/Users/jakelee/Documents/GitHub/jakes-portfolio-website/jakes-website/src/assets/code.png";
-import program from "/Users/jakelee/Documents/GitHub/jakes-portfolio-website/jakes-website/src/assets/program.png";
+import { Code, Program } from "../assets"
 
 function Skills() {
   return (
@@ -12,7 +11,7 @@ function Skills() {
         </h3>
     <div className="lg:flex gap-10">
       <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-        <img src={program} width={100} height={100} />
+        <img src={Program} width={100} height={100} />
         <h4 className="py-3 text-teal-600 text-xl">Programming Languages</h4>
         <p className="text-gray-800 py-1">C</p>
         <p className="text-gray-800 py-1">C++</p>
@@ -22,7 +21,7 @@ function Skills() {
         <p className="text-gray-800 py-1">MATLAB</p>
       </div>
       <div className="text-left shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-        <img src={code} width={100} height={100} />
+        <img src={Code} width={100} height={100} />
         <h4 className="py-3 text-teal-600 text-xl text-center">Relevant Coursework</h4>
         <p className="text-gray-800 py-1">EC444 Smart and Connected Systems</p>
         <p className="text-gray-800 py-1">EC330 Applied Algorithms</p>

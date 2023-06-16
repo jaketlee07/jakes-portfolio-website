@@ -3,7 +3,7 @@ import React from 'react'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
 import { useState } from "react";
-import Resume from "/Users/jakelee/Documents/GitHub/jakes-portfolio-website/jakes-website/src/assets/Jake's_Resume.pdf";
+import { Resume } from "../assets";
 
 
 function Nav() {

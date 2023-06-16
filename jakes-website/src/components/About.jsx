@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 //import {View, Image, StyleSheet} from 'react-native';
 
 
-import HeadShot from "/Users/jakelee/Documents/GitHub/jakes-portfolio-website/jakes-website/src/assets/headshot.jpg";
+import { Headshot } from "../assets"
+
 
 
 import {
@@ -31,7 +32,7 @@ function About() {
             </a>
         </div>
         <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-70 h-70 relative overflow-hidden mt-20 md:h-96 md:w-96">
-            <img src={HeadShot} className="h-full w-full object-cover" style={{ marginRight: '50px' }} /> 
+            <img src={Headshot} className="h-full w-full object-cover" style={{ marginRight: '50px' }} /> 
         </div>
 
         <div>
