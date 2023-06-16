@@ -7,7 +7,9 @@ import program from "/Users/jakelee/Documents/GitHub/jakes-portfolio-website/jak
 function Skills() {
   return (
     <section>
-   
+        <h3 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] pb-5">
+            Relevant Skills and Courses.
+        </h3>
     <div className="lg:flex gap-10">
       <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
         <img src={program} width={100} height={100} />

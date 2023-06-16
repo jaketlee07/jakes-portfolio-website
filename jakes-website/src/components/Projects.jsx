@@ -86,12 +86,12 @@ function Projects() {
   return (
     <section className="py-10">
     <div>
-      <h3 className="text-5xl font-bold py-1 dark:text-white ">Projects</h3>
-      <p className="text-lg py-2 leading-8 text-gray-600 dark:text-gray-200">
+      <h3 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Projects</h3>
+      <p className="text-xl py-2 font-bold leading-8 text-white">
         Since the begining of my Programming journey I have taken part in a wide 
         range of projects
       </p>
-      <p className="text-lg py-2 leading-8 text-gray-600 dark:text-gray-200">
+      <p className="text-xl py-2 font-bold leading-8 text-white">
         Here are some of the projects that I've done
       </p>
     </div>

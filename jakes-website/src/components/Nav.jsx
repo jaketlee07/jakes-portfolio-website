@@ -3,11 +3,12 @@ import React from 'react'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
 import { useState } from "react";
+import Resume from "/Users/jakelee/Documents/GitHub/jakes-portfolio-website/jakes-website/src/assets/Jake's_Resume.pdf";
 
 
 function Nav() {
-    const [dark, setDark] = useState(false);
-    // const formRef = useRef();
+    // const [dark, setDark] = useState(false);
+    // // const formRef = useRef();
 
     const onButtonClick = () => {
         // using Java Script method to get PDF file
@@ -17,8 +18,8 @@ function Nav() {
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
-                //alink.href = fileURL;
-                alink.download = 'public/jake_lee_resume.pdf';
+                alink.href = Resume;
+                alink.download = Resume;
                 alink.click();
             })
         })
@@ -26,18 +27,18 @@ function Nav() {
 
 
     return (
-    <div className={dark ? "dark" : ""}>
+    // <div className={dark ? "dark" : ""}>
         
         <main className=" lg:px-20 flex-1" >
 
-                <nav className="py-10 mb-12 flex justify-between dark:text-white">
+                <nav className="py-10 mb-12 flex justify-between text-white">
                     <h1 className="font-bold text-2xl">jaketlee.tech</h1>
                 <ul className="flex items-center">
                     <li>
-                    <BsFillMoonStarsFill
+                    {/* <BsFillMoonStarsFill
                         onClick={() => setDark(!dark)}
                         className=" cursor-pointer text-2xl"
-                    />
+                    /> */}
                     </li>
                     <li>
                     <button
@@ -50,7 +51,7 @@ function Nav() {
                 </ul>
                 </nav>
         </main>
-    </div>
+    // </div>
   );
 };
 
