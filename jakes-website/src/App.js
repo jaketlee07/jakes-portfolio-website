@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className= "bg-gradient-to-r from-cyan-500 to-blue-900">
+    <div className= "bg-gradient-to-r from-cyan-500 to-blue-900 pb-20">
       <Nav></Nav>
       <div className = "px-20">
       <About></About>
@@ -18,6 +18,7 @@ function App() {
       <Projects></Projects>
 
       <Contact></Contact>
+
       </div>
     </div>
   );
