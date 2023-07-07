@@ -29,17 +29,11 @@ function Nav() {
     return (
     // <div className={dark ? "dark" : ""}>
         
-        <main className=" lg:px-20 flex-1" >
+        <main className=" px-20 flex-1" >
 
                 <nav className="py-10 mb-12 flex justify-between text-white">
                     <h1 className="font-bold text-2xl">jaketlee.tech</h1>
                 <ul className="flex items-center">
-                    <li>
-                    {/* <BsFillMoonStarsFill
-                        onClick={() => setDark(!dark)}
-                        className=" cursor-pointer text-2xl"
-                    /> */}
-                    </li>
                     <li>
                     <button
                         className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
