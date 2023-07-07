@@ -1,5 +1,5 @@
 import React from 'react';
-import { MealMe} from "../assets";
+import { MealMe, Website} from "../assets";
 
 
 //import Tilt from "react-tilt";
@@ -18,9 +18,9 @@ const projects = [
     {
       index: 1,
       name: "MealME",
-      description: "Do you ever not know where to go eat? Use MealME to get matched with the perfect recommendation by going through tinder inspired resturant cards",
+      description: "Do you ever not know where to go eat? Use MealME to get matched with the perfect recommendation by going through tinder inspired resturant cards.",
       tags: [
-        { name: "react", color: "text-red-500" },
+        { name: "React", color: "text-red-500" },
         { name: "Javacript", color: "text-blue-500" },
         { name: "YelpAPI", color: "text-blue-500" },
       ],
@@ -29,14 +29,15 @@ const projects = [
     },
     {
       index: 2,
-      name: "Project 2",
-      description: "Description of Project 2",
+      name: "jaketlee.tech",
+      description: "My personal website to showcase my skills and projects.",
       tags: [
-        { name: "Tag3", color: "text-green-500" },
-        { name: "Tag4", color: "text-purple-500" },
+        { name: "React", color: "text-green-500" },
+        { name: "Tailwind", color: "text-purple-500" },
+        { name: "Javascript", color: "text-purple-500" },
       ],
-      image: "path/to/image2.jpg",
-      source_code_link: "https://github.com/project2",
+      image: Website,
+      source_code_link: "https://github.com/jaketlee07/jakes-portfolio-website",
     },
     // Add more project objects as needed
   ];

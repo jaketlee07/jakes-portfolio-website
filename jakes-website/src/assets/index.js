@@ -9,6 +9,7 @@ import MealMe from "../assets/MealMe.png";
 import Program from "../assets/program.png";
 import ThetaTau from "../assets/ThetaTau.png";
 import Tools from "../assets/tools.png";
+import Website from "../assets/jaketlee.tech.png";
 
 
 
@@ -23,5 +24,6 @@ export{
     MealMe,
     Program,
     ThetaTau, 
-    Tools
+    Tools,
+    Website
 };
