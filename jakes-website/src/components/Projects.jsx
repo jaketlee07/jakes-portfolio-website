@@ -1,5 +1,5 @@
 import React from 'react';
-import { MealMe, Website} from "../assets";
+import { MealMe, Website, FPGA} from "../assets";
 
 
 //import Tilt from "react-tilt";
@@ -22,19 +22,31 @@ const projects = [
       tags: [
         { name: "React", color: "text-red-500" },
         { name: "Javacript", color: "text-blue-500" },
-        { name: "YelpAPI", color: "text-blue-500" },
+        { name: "YelpAPI", color: "text-purple-500" },
       ],
       image: MealMe,
       source_code_link: "https://github.com/jaketlee07/MEALME-Tinder-For-Food",
     },
     {
       index: 2,
+      name: "FPGA Tennis and Squash Simulation",
+      description: "This verilog project is a playable 1 (Squash) or 2 (Tennis) player game that can be enjoyed on an FPGA board. The LED light represents the ball's movement which is hit back and forth with increasing speed after each hit.",
+      tags: [
+        { name: "Verilog", color: "text-green-500" },
+        { name: "Vivado", color: "text-purple-500" },
+        { name: "FPGA", color: "text-blue-500" },
+      ],
+      image: FPGA,
+      source_code_link: "https://github.com/jaketlee07/Tennis-and-Squash-Simulation",
+    },
+    {
+      index: 3,
       name: "jaketlee.tech",
       description: "My personal website to showcase my skills and projects.",
       tags: [
-        { name: "React", color: "text-green-500" },
-        { name: "Tailwind", color: "text-purple-500" },
-        { name: "Javascript", color: "text-purple-500" },
+        { name: "React", color: "text-red-500" },
+        { name: "Tailwind", color: "text-green-500" },
+        { name: "Javascript", color: "text-blue-500" },
       ],
       image: Website,
       source_code_link: "https://github.com/jaketlee07/jakes-portfolio-website",

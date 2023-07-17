@@ -10,6 +10,7 @@ import Program from "../assets/program.png";
 import ThetaTau from "../assets/ThetaTau.png";
 import Tools from "../assets/tools.png";
 import Website from "../assets/jaketlee.tech.png";
+import FPGA from "../assets/FPGA.jpeg";
 
 
 
@@ -25,5 +26,6 @@ export{
     Program,
     ThetaTau, 
     Tools,
-    Website
+    Website,
+    FPGA
 };
